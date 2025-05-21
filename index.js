@@ -101,7 +101,7 @@ async function processUrl(url, options) {
     } else {
       const tempDir = os.tmpdir();
       const fileName = `webclip_url_${Date.now()}.${getFileExtension(
-        options.format
+        options.extension
       )}`;
       const filePath = path.join(tempDir, fileName);
       fs.writeFileSync(filePath, processedContent);
