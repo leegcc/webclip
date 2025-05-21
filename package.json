@@ -1,0 +1,25 @@
+{
+  "name": "webclip",
+  "version": "1.0.0",
+  "description": "Fetches content from a webpage, processes it, and copies it to the clipboard.",
+  "main": "index.js",
+  "bin": {
+    "webclip": "./index.js"
+  },
+  "keywords": [
+    "clipboard",
+    "web",
+    "scraper",
+    "html",
+    "markdown"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cheerio": "^1.0.0",
+    "clipboardy": "^2.3.0",
+    "commander": "^14.0.0",
+    "turndown": "^7.2.0"
+  }
+}
