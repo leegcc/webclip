@@ -131,7 +131,7 @@ async function pasteFromClipboardToFile(options) {
     console.log("Clipboard text read successfully.");
 
     const tempDir = os.tmpdir();
-    const fileExt = getFileExtension(options.format);
+    const fileExt = getFileExtension(options.extension);
     const fileName = `webclip_paste_${Date.now()}.${fileExt}`;
     const filePath = path.join(tempDir, fileName);
 
